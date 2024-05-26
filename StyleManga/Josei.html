@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Stile Josei</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+
+        .text-box, .image-container {
+            width: 49%;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .text-box {
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            text-align: left; /* Assicura che il testo sia allineato a sinistra */
+        }
+
+        .text-box h2 {
+            text-align: center; /* Centra il titolo all'interno della text-box */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .text-box ul {
+            list-style-type: disc; /* Aggiunge i punti elenco */
+            margin-left: 20px; /* Sposta i punti elenco verso destra per evitare che si tocchino con il bordo */
+        }
+    </style>
+</head>
+<body class="light-theme">
+    <header class="josei">
+        <h1>Stile Josei</h1>
+    </header>
+    <nav>
+       <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Seinen.html">Seinen</a></li>
+            <li><a href="Shojo.html">Shojo</a></li>
+            <li><a href="Shonen.html">Shonen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-wrapper">
+            <div class="text-box">
+                <h2>Stile Josei</h2>
+                <p><strong>Descrizione:</strong> Lo stile Josei si rivolge principalmente a un pubblico femminile adulto, presentando trame mature e complesse che esplorano una vasta gamma di temi della vita reale. I manga Josei affrontano spesso questioni come l'amore maturo, la carriera, la famiglia, l'autorealizzazione, la perdita e il cambiamento.</p>
+                
+                <p><strong>Caratteristiche principali:</strong></p>
+                <ul>
+                    <li>Rappresentazione realistica delle sfide e delle gioie della vita quotidiana</li>
+                    <li>Personaggi ben sviluppati che riflettono una gamma completa di emozioni umane</li>
+                    <li>Trame mature e complesse che esplorano temi universali con sensibilità e intelligenza</li>
+                </ul>
+                
+                <p><strong>Esempi famosi:</strong> Esempi famosi di manga in stile Josei includono "Nana", "Paradise Kiss", "Honey and Clover", "March Comes in Like a Lion" e molti altri. Queste opere sono amate per la loro profondità emotiva, i personaggi ben definiti e le trame avvincenti.</p>
+            </div>
+            <div class="image-container">
+                <img src="d7ea8af0d0cad3d676d365a0e0e18f88.jpg" alt="Esempio di un manga Josei">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Style Manga</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

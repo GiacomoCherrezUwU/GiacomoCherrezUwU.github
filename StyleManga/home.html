@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stili di Disegno</title>
+    <link rel="stylesheet" href="styles.css" id="theme-style">
+    <link rel="icon" href="Logo.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+            font-size: 36px;
+        }
+        .icon-container {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .circular-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        main {
+            padding: 20px;
+        }
+        .stili {
+            margin-bottom: 30px;
+        }
+        .image-container {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .image-container img {
+            max-width: 300px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .shonen img,
+        .shojo img,
+        .seinen img,
+        .josei img {
+            max-width: 500px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="light-theme">
+    <header>
+        <div class="icon-container">
+            <img src="Logo.png" alt="Logo" class="circular-icon">
+        </div>
+        <h1>Stili di Disegno Manga</h1>
+    </header>
+    <main>
+        <section class="i vari stili:">
+            <h2>I vari Stili:</h2>
+            <p>Selezionate lo stile di disegno che vi interessa:)</p>
+        </section>
+        <section class="image-links">
+            <div class="image-container shonen">
+                <a href="Shonen.html">
+                    <img src="evangelion.jpg" alt="Shonen">
+                </a>
+                <p>Shonen</p>
+            </div>
+            <div class="image-container shojo">
+                <a href="Shojo.html">
+                    <img src="Nakano_Quintuplets_in_New_Class_3-1.png" alt="Shojo">
+                </a>
+                <p>Shojo</p>
+            </div>
+            <div class="image-container seinen">
+                <a href="Seinen.html">
+                    <img src="m_punpun.jpg" alt="Seinen">
+                </a>
+                <p>Seinen</p>
+            </div>
+            <div class="image-container josei">
+                <a href="Josei.html">
+                    <img src="d7ea8af0d0cad3d676d365a0e0e18f88.jpg" alt="Josei">
+                </a>
+                <p>Josei</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Style Manga</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

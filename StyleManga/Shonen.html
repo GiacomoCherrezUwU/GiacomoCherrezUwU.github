@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Stile Shonen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+
+        .text-box, .image-container {
+            width: 49%; /* Impostiamo la larghezza al 49% per garantire che si adattino correttamente */
+            box-sizing: border-box; /* Assicura che il padding e i bordi siano inclusi nella larghezza */
+            padding: 20px;
+        }
+
+        .text-box {
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            text-align: left; /* Assicura che il testo sia allineato a sinistra */
+        }
+
+        .text-box h2 {
+            text-align: center; /* Centra il titolo all'interno della text-box */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 75%; /* Imposta l'immagine al 75% della larghezza del contenitore */
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .text-box ul {
+            list-style-type: disc; /* Aggiunge i punti elenco */
+            margin-left: 20px; /* Sposta i punti elenco verso destra per evitare che si tocchino con il bordo */
+        }
+    </style>
+</head>
+<body class="light-theme">
+    <header class="shonen">
+        <h1>Stile Shonen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Seinen.html">Seinen</a></li>
+            <li><a href="Shojo.html">Shojo</a></li>
+            <li><a href="Josei.html">Josei</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-wrapper">
+            <div class="text-box">
+                <h2>Stile Shonen</h2>
+                <p><strong>Descrizione:</strong> Lo stile Shonen è un genere di manga e anime rivolto principalmente a un pubblico maschile giovane, caratterizzato da trame ricche di azione, avventura e amicizia. Il termine "Shonen" significa "ragazzo" o "giovane" in giapponese.</p>
+                
+                <p><strong>Caratteristiche principali:</strong></p>
+                <ul>
+                    <li>Trame dinamiche e avventurose</li>
+                    <li>Protagonisti che affrontano avventure epiche</li>
+                    <li>Sviluppo di abilità speciali</li>
+                    <li>Legami profondi con gli amici</li>
+                </ul>
+                
+                <p><strong>Origine e popolarità:</strong> Lo stile Shonen è stato creato per la prima volta nel 20° secolo in Giappone ed è diventato uno dei generi più popolari sia nel paese d'origine che a livello internazionale.</p>
+                
+                <p><strong>Opere celebri:</strong> Esempi iconici dello stile Shonen includono:</p>
+                <ul>
+                    <li>"Dragon Ball"</li>
+                    <li>"Naruto"</li>
+                    <li>"One Piece"</li>
+                    <li>"Evangelion"</li>
+                </ul>
+                
+                <p><strong>Impatto culturale:</strong> I manga e gli anime in stile Shonen hanno avuto un impatto significativo sulla cultura popolare e hanno influenzato molti altri media e generi. La loro capacità di affrontare temi universali come amicizia, coraggio e determinazione li rende apprezzati da un vasto pubblico di lettori di tutte le età.</p>
+            </div>
+            <div class="image-container">
+                <img src="evangelion.jpg" alt="Esempio di un manga Shonen" style="width: 75%;">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Style Manga</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
+

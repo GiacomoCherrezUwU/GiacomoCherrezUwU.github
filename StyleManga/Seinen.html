@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Stile Seinen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+
+        .text-box, .image-container {
+            width: 49%; /* Impostiamo la larghezza al 49% per garantire che si adattino correttamente */
+            box-sizing: border-box; /* Assicura che il padding e i bordi siano inclusi nella larghezza */
+            padding: 20px;
+        }
+
+        .text-box {
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            text-align: left; /* Assicura che il testo sia allineato a sinistra */
+        }
+
+        .text-box h2 {
+            text-align: center; /* Centra il titolo all'interno della text-box */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 75%; /* Imposta l'immagine al 75% della larghezza del contenitore */
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .text-box ul {
+            list-style-type: disc; /* Aggiunge i punti elenco */
+            margin-left: 20px; /* Sposta i punti elenco verso destra per evitare che si tocchino con il bordo */
+        }
+    </style>
+</head>
+<body class="light-theme">
+    <header class="seinen">
+        <h1>Stile Seinen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Shonen.html">Shonen</a></li>
+            <li><a href="Shojo.html">Shojo</a></li>
+            <li><a href="Josei.html">Josei</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-wrapper">
+            <div class="text-box">
+                <h2>Stile Seinen</h2>
+                <p><strong>Descrizione:</strong> Lo stile Seinen è un genere di manga e anime rivolto principalmente a un pubblico maschile adulto, caratterizzato da trame più mature e complesse rispetto allo stile Shonen. Il termine "Seinen" significa "giovane uomo" in giapponese.</p>
+                
+                <p><strong>Caratteristiche principali:</strong></p>
+                <ul>
+                    <li>Trame più mature e complesse</li>
+                    <li>Esplorazione della psicologia dei personaggi</li>
+                    <li>Approfondimento di temi come politica, filosofia e società</li>
+                </ul>
+                
+                <p><strong>Origine e popolarità:</strong> Questo genere è stato sviluppato per soddisfare le esigenze dei lettori adulti, offrendo storie più profonde e sofisticate rispetto ai manga Shonen.</p>
+                
+                <p><strong>Opere celebri:</strong> Opere celebri dello stile Seinen includono titoli come "Berserk", "Akira", "Monster" e "Oyasumi, Punpun", che sono apprezzati per la loro complessità narrativa e la riflessione sui temi della vita e della morte.</p>
+            </div>
+            <div class="image-container">
+                <img src="m_punpun.jpg" alt="Esempio di un manga Seinen" style="width: 75%;">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Style Manga</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

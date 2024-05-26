@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Stile Shojo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+
+        .text-box, .image-container {
+            width: 49%;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .text-box {
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            text-align: left; /* Assicura che il testo sia allineato a sinistra */
+        }
+
+        .text-box h2 {
+            text-align: center; /* Centra il titolo all'interno della text-box */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .text-box ul {
+            list-style-type: disc; /* Aggiunge i punti elenco */
+            margin-left: 20px; /* Sposta i punti elenco verso destra per evitare che si tocchino con il bordo */
+        }
+    </style>
+</head>
+<body class="light-theme">
+    <header class="shojo">
+        <h1>Stile Shojo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Seinen.html">Seinen</a></li>
+            <li><a href="Shonen.html">Shonen</a></li>
+            <li><a href="Josei.html">Josei</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-wrapper">
+            <div class="text-box">
+                <h2>Stile Shojo</h2>
+                <p><strong>Descrizione:</strong> Lo stile Shojo è un genere distintivo della manga e dell'anime che si rivolge principalmente a un pubblico femminile adolescente, anche se è amato da persone di tutte le età e generi. Questo stile è caratterizzato da tratti distintivi sia nel disegno che nei temi trattati.</p>
+                
+                <p><strong>Caratteristiche principali:</strong></p>
+                <ul>
+                    <li>Estetica dei personaggi con lineamenti delicati, occhi grandi e espressivi, lunghi capelli fluenti e una gamma di espressioni emotive molto ricca.</li>
+                    <li>Emotività e romanticismo con storie che si concentrano sulle relazioni interpersonali e le emozioni dei personaggi.</li>
+                    <li>Trame complesse che affrontano temi come l'amicizia, il sacrificio, l'accettazione di sé e la lotta contro l'ingiustizia.</li>
+                    <li>Estetica visiva con sfondi dettagliati e atmosferici e l'uso di tonalità pastello, linee morbide e dettagli delicati.</li>
+                    <li>Variazioni di genere che possono includere anche fantasy, dramma, paranormale e azione.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="Nakano_Quintuplets_in_New_Class_3-1.png" alt="Esempio di un manga Shojo">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Style Manga</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
+
