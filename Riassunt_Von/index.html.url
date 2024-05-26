@@ -1,2 +1,63 @@
-[InternetShortcut]
-URL=https://drive.google.com/file/d/1HHuvVVr7GGBosFNvEOBc6AtdIvFxDeP2/view?usp=classroom_web&authuser=0
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema di Elaborazione e Macchina di Von Neumann</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightblue; /* Colore light blue */
+        }
+        h1 {
+            color: #4e342e; /* Colore marrone */
+            text-align: center;
+            text-decoration: underline;
+        }
+        h2 {
+            color: #4e342e; /* Colore marrone */
+            text-align: center;
+            text-decoration: underline;
+        }
+        p {
+            color: #4e342e; /* Colore marrone */
+            line-height: 1.6;
+        }
+        ul {
+            color: #4e342e; /* Colore marrone */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema di Elaborazione e Macchina di Von Neumann</h1>
+    <p>Il sistema di elaborazione è un insieme di componenti hardware e software che lavorano insieme per eseguire istruzioni e processare dati. La Macchina di Von Neumann è uno dei modelli più fondamentali di sistema di elaborazione.</p>
+    
+    <h2>Componenti della Macchina di Von Neumann</h2>
+    <ul>
+        <li><strong>Unità di Elaborazione (CPU):</strong> Esegue istruzioni e manipola dati.</li>
+        <li><strong>Memoria:</strong> Conserva dati e istruzioni in modo temporaneo o permanente.</li>
+        <li><strong>Unità di Controllo:</strong> Coordina le operazioni del sistema, recuperando istruzioni dalla memoria e controllando l'esecuzione delle istruzioni da parte della CPU.</li>
+        <li><strong>Bus:</strong> Mezzo di comunicazione che consente il trasferimento di dati tra la CPU, la memoria e altri dispositivi di input/output.</li>
+    </ul>
+    
+    <h2>Funzionamento della Macchina di Von Neumann</h2>
+    <p>La Macchina di Von Neumann esegue programmi archiviati nella memoria. Il processo è diviso in quattro fasi principali:</p>
+    <ol>
+        <li><strong>Ricezione dell'istruzione:</strong> L'unità di controllo recupera l'istruzione successiva dalla memoria.</li>
+        <li><strong>Decodifica dell'istruzione:</strong> L'unità di controllo interpreta l'istruzione e determina quali operazioni devono essere eseguite.</li>
+        <li><strong>Esecuzione dell'istruzione:</strong> La CPU esegue l'istruzione, manipolando i dati secondo le specifiche dell'istruzione.</li>
+        <li><strong>Avanzamento al passo successivo:</strong> Dopo l'esecuzione, il ciclo si ripete, avanzando all'istruzione successiva.</li>
+    </ol>
+    
+    <h2>Vantaggi della Macchina di Von Neumann</h2>
+    <p>La Macchina di Von Neumann offre numerosi vantaggi, tra cui:</p>
+    <ul>
+        <li>Semplicità del modello, che lo rende facile da comprendere e implementare.</li>
+        <li>Flessibilità nell'esecuzione di programmi diversi senza dover cambiare l'hardware.</li>
+        <li>Efficienza nell'utilizzo delle risorse grazie alla capacità di riusare la memoria per dati e istruzioni.</li>
+    </ul>
+    
+    <p>Questo è solo un breve riassunto della Macchina di Von Neumann e del suo funzionamento nel sistema di elaborazione.</p>
+</body>
+</html>
