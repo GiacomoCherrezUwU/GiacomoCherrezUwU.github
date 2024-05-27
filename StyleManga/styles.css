@@ -66,7 +66,7 @@ input:checked + .slider:before {
 
 
 header {
-   background-color: #808080;
+   background-color: #f0f0f0;
   color: #FFFFFF;
   text-align: center;
   padding: 1em 0;
@@ -170,7 +170,7 @@ section {
 footer {
      text-align: center;
   padding: 1em 0;
-  background-color: #808080; 
+  background-color: #f0f0f0; 
   color: white;
 
 }
