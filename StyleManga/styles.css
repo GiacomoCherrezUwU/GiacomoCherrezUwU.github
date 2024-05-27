@@ -126,7 +126,6 @@ section {
 }
 
 .image-container {
-    background-color: #444;
     text-align: center;
     margin: 1em;
     transition: transform 0.3s ease;
