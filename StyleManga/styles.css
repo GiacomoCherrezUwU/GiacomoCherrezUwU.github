@@ -59,7 +59,9 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(26px);
 }
-
+.fine{
+    color: #000;
+}
 
 header {
    background-color: #f0f0f0;
@@ -69,25 +71,25 @@ header {
 }
 .Shonen{
     background-color: #F2771A;
-    color: #1C1919;
+    color: #000;
     padding: 1em 0;
     text-align: center;
 }
 .Shojo{
     background-color: #0D47F7;
-    color: #ffffff;
+    color: #000;
     padding: 1em 0;
     text-align: center;
 }
 .Seinen{
     background-color: #cb0d25;
-    color: #ffffff;
+    color: #000;
     padding: 1em 0;
     text-align: center;
 }
 .Josei{
     background-color: #000000;
-    color: #FFDE59;
+    color: #000;
     padding: 1em 0;
     text-align: center;
 }
