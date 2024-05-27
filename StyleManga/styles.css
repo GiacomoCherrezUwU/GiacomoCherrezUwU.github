@@ -66,10 +66,10 @@ input:checked + .slider:before {
 
 
 header {
-    background-color: #444;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 1em 0;
+   background-color: #808080;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em 0;
 }
 .Shonen{
     background-color: #F2771A;
@@ -168,8 +168,9 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #444;
-    color: white;
+     text-align: center;
+  padding: 1em 0;
+  background-color: #808080; 
+  color: white;
+
 }
