@@ -12,23 +12,28 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .container {
     text-align: center;
-     background-color: rgba(255, 255, 255, 0.8); /* Aggiunge uno sfondo semi-trasparente per migliorare la leggibilità del testo */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     margin: 50px auto;
     max-width: 800px;
 }
+
 h1 {
     color: #F8F9FA; 
 }
+
 p {
     color: #E9ECEF; 
 }
+
 .buttons {
     margin-top: 20px;
 }
+
 .buttons a {
     display: inline-block;
     text-decoration: none;
@@ -39,6 +44,7 @@ p {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
 .buttons a:hover {
     background-color: #212529; 
 }
