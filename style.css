@@ -7,20 +7,25 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-
 }
+
 .container {
     text-align: center;
+
 }
+
 h1 {
-    color: #F8F9FA; 
+    color: #343A40; 
 }
+
 p {
-    color: #E9ECEF; 
+    color: #495057; 
 }
+
 .buttons {
     margin-top: 20px;
 }
+
 .buttons a {
     display: inline-block;
     text-decoration: none;
@@ -31,6 +36,7 @@ p {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
 .buttons a:hover {
     background-color: #212529; 
 }
@@ -40,4 +46,3 @@ p {
     padding: 10px;
     margin: 10px;
 }
-
